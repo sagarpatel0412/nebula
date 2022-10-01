@@ -5,7 +5,7 @@ import Logo from "../../logoassets/Logo";
 function Header() {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
+      <nav className="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between dark:bg-gray-900">
         <div className="px-6 w-full flex flex-wrap items-center justify-between">
           <div className="flex items-center">
             <button
@@ -51,7 +51,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out text-gray-600 dark:text-gray-400"
                   href="#!"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
@@ -61,7 +61,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out text-gray-600 dark:text-gray-400"
                   href="#!"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
@@ -71,7 +71,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out text-gray-600 dark:text-gray-400"
                   href="#!"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
@@ -81,7 +81,7 @@ function Header() {
               </li>
               <li className="nav-item mb-2 lg:mb-0">
                 <a
-                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                  className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out text-gray-600 dark:text-gray-400"
                   href="#!"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
@@ -95,20 +95,24 @@ function Header() {
       </nav>
 
       <div
-        className="text-center bg-gray-50 text-gray-800 py-20 px-6"
+        className={`text-center bg-gray-50 text-gray-800 py-20 px-30 ${sty.backgroundimage_Padding}`}
         style={{
           backgroundPosition: "50%",
           backgroundImage:
-            "url(https://unsplash.com/photos/5UjBY00ToG0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTJ8fGRhcmslMjBuaWdodCUyMHN0YXJyeSUyMHNreXxlbnwwfHx8fDE2NjM5NjQyODY&force=true&w=2400)",
+            "url(https://unsplash.com/photos/OsFGJ3vXe9Q/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nzl8fGJlYWNofGVufDB8fHx8MTY2NDYwMzIzMg&force=true)",
           // height: "350px",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
       >
-        <h1 className="text-5xl font-bold mt-0 mb-6">Heading</h1>
-        <h3 className="text-3xl font-bold mb-8">Subeading</h3>
+        <h1 className="text-5xl font-bold mt-0 mb-6 text-white">
+          Nebula Events
+        </h1>
+        <h3 className="text-3xl font-bold mb-8 text-white">
+          We host dj parties every month please login to see more events
+        </h3>
         <a
-          className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+          className="inline-block px-6 py-2.5 bg-indigo-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"
           href="#!"
