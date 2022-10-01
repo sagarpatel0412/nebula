@@ -1,17 +1,21 @@
-.header{
-    display: flex;
-    background-color: black;
-    color:white;
-    justify-content: space-between;
+.header {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
 }
-.header_logo{
-   font-size:20px;
-   font-weight: bold; 
+.header_logo {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.header_menu{
-    display:flex;
-    float:right;
-    justify-content: space-between;
-    
+.header_menu {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+.backgroundimage_Padding {
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
