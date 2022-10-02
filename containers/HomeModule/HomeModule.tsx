@@ -1,7 +1,15 @@
 import React from "react";
+
 import Common from "../Common/Common";
 
 function HomeModule() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <Common>
       <div>
@@ -64,9 +72,9 @@ function HomeModule() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </a>
@@ -82,9 +90,9 @@ function HomeModule() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                       <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
                     </svg>
@@ -124,14 +132,81 @@ function HomeModule() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </a>
                 </div>
               </article>
+            </div>
+            <div>
+              <div className="py-8 px-4 mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-black">
+                  Back stories
+                </h2>
+                <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                  We use an agile approach to test assumptions and connect with
+                  the needs of your audience early and often.
+                </p>
+              </div>
+              <div className="container mx-auto">
+                <div className="grid grid-cols-1">
+                  <section className="overflow-hidden text-gray-700">
+                    <div className="container px-5 py-2 mx-auto">
+                      <div className="flex flex-wrap -m-1 md:-m-2">
+                        <div className="flex flex-wrap w-1/2">
+                          <div className="w-1/2 p-1 md:p-2">
+                            <img
+                              alt="gallery"
+                              className="block object-cover object-center w-full h-full rounded-lg"
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                            />
+                          </div>
+                          <div className="w-1/2 p-1 md:p-2">
+                            <img
+                              alt="gallery"
+                              className="block object-cover object-center w-full h-full rounded-lg"
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                            />
+                          </div>
+                          <div className="w-full p-1 md:p-2">
+                            <img
+                              alt="gallery"
+                              className="block object-cover object-center w-full h-full rounded-lg"
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                            />
+                          </div>
+                        </div>
+                        <div className="flex flex-wrap w-1/2">
+                          <div className="w-full p-1 md:p-2">
+                            <img
+                              alt="gallery"
+                              className="block object-cover object-center w-full h-full rounded-lg"
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                            />
+                          </div>
+                          <div className="w-1/2 p-1 md:p-2">
+                            <img
+                              alt="gallery"
+                              className="block object-cover object-center w-full h-full rounded-lg"
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                            />
+                          </div>
+                          <div className="w-1/2 p-1 md:p-2">
+                            <img
+                              alt="gallery"
+                              className="block object-cover object-center w-full h-full rounded-lg"
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
             </div>
           </div>
         </section>
