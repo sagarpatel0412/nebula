@@ -1,6 +1,7 @@
 import * as React from "react";
 import sty from "./Header.module.scss";
 import Logo from "../../logoassets/Logo";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -50,6 +51,7 @@ function Header() {
                 </h3>
               </li>
               <li className="nav-item">
+                <Link href="/">
                 <a
                   className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out text-gray-600 dark:text-gray-400"
                   href="#!"
@@ -58,6 +60,7 @@ function Header() {
                 >
                   Home
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a
@@ -80,14 +83,16 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item mb-2 lg:mb-0">
+               <Link href={"/about"}>
                 <a
                   className="nav-link block pr-2 lg:px-5 py-5 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out text-gray-600 dark:text-gray-400"
-                  href="#!"
+                  // href="/about"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
                 >
                   About
                 </a>
+                </Link>
               </li>
             </ul>
           </div>
